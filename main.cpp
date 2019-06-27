@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  cout << "Started" << endl;
+  cout << "Started!" << endl;
 
   if (wiringPiSetup() < 0) {
     cout << "setup wiring pi failed" << endl;

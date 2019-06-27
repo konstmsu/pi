@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-rm app
-make && ./app
+cmake . && make && ./app
