@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.7)
 project(app)
 
 set(CMAKE_CXX_STANDARD 14)
+add_compile_options(-Wall -Wextra)
 
 add_executable(app main.cpp actions/Blinker.cpp actions/Blinker.h)
 
